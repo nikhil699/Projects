@@ -1,0 +1,30 @@
+<web-app>
+<display-name>LoginLogout</display-name>
+  <welcome-file-list>
+    <welcome-file>NewFile.html</welcome-file>
+</welcome-file-list>
+    <servlet>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>mainServlet</servlet-name>
+    <servlet-class>mainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logoutservlet</servlet-name>
+    <servlet-class>logoutservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logoutservlet</servlet-name>
+    <url-pattern>/logoutservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mainServlet</servlet-name>
+    <url-pattern>/mainServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

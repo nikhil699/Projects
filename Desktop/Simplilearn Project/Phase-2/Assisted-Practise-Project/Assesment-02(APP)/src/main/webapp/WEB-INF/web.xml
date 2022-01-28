@@ -1,0 +1,15 @@
+<element>
+<web-app>
+<servlet>
+<servlet-name>InsertData</servlet-name>
+<servlet-class>InsertData</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>InsertData</servlet-name>
+<url-pattern>/InsertData</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>database.html</welcome-file>
+</welcome-file-list>
+</web-app>
+</element>
